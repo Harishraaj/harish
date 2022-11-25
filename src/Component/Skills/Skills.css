@@ -1,0 +1,113 @@
+.skill-title {
+  margin: 3%;
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #05478e;
+  font-family: "Open Sans", sans-serif;
+  line-height: var(--bs-body-line-height);
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.column {
+  float: left;
+  width: 46%;
+  padding: 0 10px;
+  margin-left: 4%;
+  height: 480px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.949);
+  padding: 16px;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  background-image: url('skill_IMG.png');
+  background-repeat: no-repeat;
+  border: none;
+  opacity: 0.8;
+  margin-left: 65%;
+}
+.card h5{
+    color: #4b7cb1;
+}
+@media screen and (max-width: 376px) {
+  .skill-title{
+    margin-top: 80px;
+  }
+  .card{
+    margin-left: 15%;
+    background-image: url('skill_IMG_1_60.png');
+    width: 300px;
+    opacity: 1;
+  }
+  .column{
+    height: 350px;
+  }
+}
+@media screen and (max-width: 910px) {
+  .skill-title{
+    margin-top: 45px;
+  }
+  .card{
+    margin-left:25%;
+    background-image: url('skill_IMG_1_60.png');
+    width: 300px;
+    opacity: 1;
+  }
+  .column{
+    height: 340px;
+  }
+}
+@media  (min-width:315px) and (max-width:350px) {
+  .card{
+    margin-left:5%;
+    background-image: url('skill_IMG_1_60.png');
+    width: 300px;
+    opacity: 1;
+  }
+  .column{
+    height: 340px;
+  }
+}
+@media (width: 820px) {
+  .card{
+    margin-left:60%;
+    background-image: url('skill_IMG_1_60.png');
+    width: 300px;
+    opacity: 1;
+  }
+}
+@media (width:540px) {
+  .card{
+    margin-left:43%;
+    background-image: url('skill_IMG_1_60.png');
+    width: 300px;
+    opacity: 1;
+  }
+}
+@media (width:768px) {
+  .card{
+    margin-left:58%;
+    background-image: url('skill_IMG_1_60.png');
+    width: 300px;
+    opacity: 1;
+  }
+}
+@media (width:912px){
+  .card{
+    margin-left:65%;
+    background-image: url('skill_IMG_1_60.png');
+    width: 300px;
+    opacity: 1;
+  }
+  .column{
+    height: 330px;
+  }
+}

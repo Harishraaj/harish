@@ -1,0 +1,121 @@
+.work-title{
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #05478e;
+    font-family: "Open Sans", sans-serif;
+    line-height: var(--bs-body-line-height);
+} 
+.company-img{
+background-image: url('cloud-assert.png');
+width: 330px;
+height: 100px;
+margin-left: 39%;
+}
+.company-content h6{
+    color: #555e67;
+}
+@media screen and (max-width: 376px) {
+    .company-img{
+        margin-top: 0%;
+        background-image: url('cloud-assert_60.png');
+        width: 198px;
+        height: 60px;
+        margin-left: 23%;
+    }
+    .company-content h5
+    {
+        font-size: 15px;
+    }
+    .company-content h6{
+        color: #555e67;
+        font-size: 13px;
+    }
+}
+@media  screen and (max-width:910px) {
+    .company-img{
+        margin-top: 0%;
+        background-image: url('cloud-assert_60.png');
+        width: 198px;
+        height: 60px;
+        margin-left: 22%;
+    }
+    .company-content h5
+    {
+        font-size: 15px;
+    }
+    .company-content h6{
+        color: #555e67;
+        font-size: 13px;
+    }   
+}
+@media  (min-width:315px) and (max-width:350px) {
+    .company-img{
+        margin-top: 0%;
+        background-image: url('cloud-assert_60.png');
+        width: 198px;
+        height: 60px;
+        margin-left: 15%;
+    }
+}
+@media (width:820px) {
+    .company-img{
+        margin-top: 0%;
+        background-image: url('cloud-assert_60.png');
+        width: 198px;
+        height: 60px;
+        margin-left: 37%;
+    }
+    .company-content h5
+    {
+        font-size: 15px;
+    }
+    .company-content h6{
+        color: #555e67;
+        font-size: 13px;
+    }   
+    
+}
+@media (width:540px) {
+    .company-img{
+        margin-top: 0%;
+        background-image: url('cloud-assert_60.png');
+        width: 198px;
+        height: 60px;
+        margin-left: 32%;
+    }
+    .company-content h5
+    {
+        font-size: 15px;
+    }
+    .company-content h6{
+        color: #555e67;
+        font-size: 13px;
+    }   
+}
+@media (width:768px){
+    .company-img{
+        margin-top: 0%;
+        background-image: url('cloud-assert_60.png');
+        width: 198px;
+        height: 60px;
+        margin-left: 36%;
+    }
+    .company-content h5
+    {
+        font-size: 15px;
+    }
+    .company-content h6{
+        color: #555e67;
+        font-size: 13px;
+    }    
+}
+@media (width:912px){
+     .company-img{
+        margin-left: 31%;
+    }
+      
+}

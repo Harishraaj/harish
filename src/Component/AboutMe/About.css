@@ -1,0 +1,31 @@
+.section-title{
+    margin: 3%;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #05478e;
+    font-family: "Open Sans", sans-serif;
+    line-height: var(--bs-body-line-height);
+}
+.section-content p{
+    display: block;
+    font-size: 18px;
+    text-transform: none;
+    color: rgb(96, 110, 118);
+    font-display: inherit;
+    margin:0 18% 0 18%;
+    text-align: center;
+}
+@media screen and (max-width: 376px) {
+    .section-title{
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 910px) {
+    .section-title{
+        margin-top:45px;
+    }
+}

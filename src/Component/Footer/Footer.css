@@ -1,0 +1,24 @@
+.footer-body{
+    display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  min-height: fit-content;
+ background-image: url('Top-bg_IMG.jpg');
+ margin-top: 0%;
+}
+.footer-content{
+    color: rgb(232, 232, 232);
+    margin-top: -20px;
+}
+.footer-icon{
+    display: flex  ;
+    margin-left: -100px;
+    margin-top: 95px;
+}
+.footer-icon i{
+    margin-left: 12px;
+    margin-bottom: 20px;
+    color: rgb(132, 193, 247);
+    font-size: 16px;
+}
