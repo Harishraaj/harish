@@ -10,242 +10,67 @@
     font-family: "Open Sans", sans-serif;
     line-height: var(--bs-body-line-height);
 } 
-.contact-icon{
-    color: aliceblue;
-}
-.details-title {
-    color: #535353;
+.contact-body {
+    margin: 0% 0% 2% 0%;
+  }
+  .messageSuccess{
+    font-size: 20px;
+    color: green;
+    position: absolute;
+    animation: button .3s linear;
+    display: none;
+  }
+  .messageFails{
+    font-size: 20px;
+    color: red;
+    position: absolute;
+    transition: .3s;
+    animation: button .3s linear;
+    display: none;
+  }
+.mail {
+    justify-content: center;
     display: flex;
-    margin-left: 40%;
-    padding: 10px;
-    font-size: 150%;
-
-}
-.details-title h4{
-margin-left: 6%;
-}
-
-.details-content-location{
-    margin-left: 250px;
-}
-.details-content-phone{
-    /* margin-left: 0px; */
-}
-.details-content-mail{
-    margin-left: 80px;
-    margin-bottom: 50px;
-}
-.contact-icon{
-    background-color: #476087;
-    width: 40px;
-    border-radius: 60%;
-}
+    flex-wrap: wrap;
+  }
+  input,textarea{
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    box-sizing: border-box;
+  }
 @media screen and (max-width: 376px) {
-    .contact-title{
-        margin-top: 50px;
-    }
-    .contact-icon{
-        width: 30px;
-        border-radius: 60%;
-    }
-    .contact-details{
-        margin-left: 0px;
-    }
-    .details-title{
-        margin-left: 13%;
-    }
-    .details-title h4{
-        font-size: 18px;
-    }
-    .details-content-location{
-        margin-left: 0px;
-        text-align:left ;
-    }
-    .details-content-phone{
-        padding-left: 15px;
-    }
-    .details-content-mail{
-        padding-left: 15px;
-        margin-bottom: 50px;
-        
-    }
+
 }
 @media screen and (max-width: 910px){
     .contact-title{
         margin-top: 95px;
-    }
-    .contact-icon{
-        width: 40px;
-        border-radius: 50%;
-    }
-    .contact-details{
-        margin-left: 0px;
-    }
-    .details-title{
-        margin-left: 12%;
-    }
-    .details-title h4{
-        font-size: 18px;
-    }
-    .details-content-location{
-        margin-left: 120px;
-        text-align: left;
-    }
-    .details-content-phone{
-        margin-left: -80px;
-    }
-    .details-content-mail{
-        margin-left: 10px;
-        margin-bottom: 50px;
     }
 }
 @media  (min-width:315px) and (max-width:350px) {
     .contact-title{
         margin-top: 95px;
     }
-    .contact-icon{
-        width: 40px;
-        border-radius: 50%;
-    }
-    .contact-details{
-        margin-left: 0px;
-    }
-    .details-title{
-        margin-left: 12%;
-    }
-    .details-title h4{
-        font-size: 18px;
-    }
-    .details-content-location{
-        margin-left: 106px;
-        text-align: left;
-    }
-    .details-content-phone{
-        margin-left: -40px;
-    }
-    .details-content-mail{
-        margin-left:50px;
-        margin-bottom: 50px;
-    }
 }
-@media  (width:360px){
-    .details-content-location{
-        margin-left: 113px;
-    }
-    .details-content-phone{
-        margin-left: -60px;
-    }
-    .details-content-mail{
-        margin-left:25px;
-        margin-bottom: 50px;
-    }
-} 
 @media (width:820px) {
     .contact-title{
         margin-top: 95px;
-    }
-    .contact-icon{
-        width: 40px;
-        border-radius: 50%;
-    }
-    .contact-details{
-        margin-left: 0px;
-    }
-    .details-title{
-        margin-left: 30%;
-    }
-    .details-title h4{
-        font-size: 18px;
-    }
-    .details-content-location{
-        margin-left: 330px;
-    }
-    .details-content-phone{
-        margin-left: -60px;
-    }
-    .details-content-mail{
-        margin-left:25px;
-        margin-bottom: 50px;
     }
 }
 @media (width:540px) {
     .contact-title{
         margin-top: 95px;
     }
-    .contact-icon{
-        width: 40px;
-        border-radius: 50%;
-    }
-    .contact-details{
-        margin-left: 0px;
-    }
-    .details-title{
-        margin-left: 30%;
-    }
-    .details-title h4{
-        font-size: 18px;
-    }
-    .details-content-location{
-        margin-left: 235px;
-    }
-    .details-content-phone{
-        margin-left: 20px;
-    }
-    .details-content-mail{
-        margin-left:107px;
-        margin-bottom: 50px;
-    }
 }
 @media (width:768px) {
     .contact-title{
         margin-top: 95px;
-    }
-    .contact-icon{
-        width: 40px;
-        border-radius: 50%;
-    }
-    .contact-details{
-        margin-left: 0px;
-    }
-    .details-title{
-        margin-left: 30%;
-    }
-    .details-title h4{
-        font-size: 18px;
-    }
-    .details-content-location{
-        margin-left: 312px;
-    }
-    .details-content-phone{
-        margin-left: -54px;
-    }
-    .details-content-mail{
-        margin-left:32px;
-        margin-bottom: 50px;
     }
 }
 @media (width:912px){
     .contact-title{
         margin-top: 95px;
     }
-    .contact-icon{
-        width: 40px;
-        border-radius: 50%;
-    }
-    .contact-details{
-        margin-left: 0px;
-    }
-    .details-title{
-        margin-left: 30%;
-    }
-    .details-content-location{
-        margin-left: 158px;
-    }
-    .details-content-phone{
-        margin-left: -100px;
-    }
-    .details-content-mail{
-        margin-left:-12px;
-        margin-bottom: 50px;
-    }
 }
+

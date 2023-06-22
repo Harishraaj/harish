@@ -3,11 +3,14 @@ import Typical from "react-typical";
 import "./Profile.css";
 
 export default function Profile() {
+  const scrollTOBottom = () => {
+    window.scrollTo(0,document.body.scrollHeight);
+  };
   return (
     <div className="profile-container">
       <div className="profile-parent">
         <div className="profile-details">
-          <div className="colz">                    
+          <div className="colz">
             <div className="colz-icon">
               <a href="https://instagram.com/harishsiva_13?igshid=N2ZiY2E3YmU=">
                 <i className="fa fa-instagram"></i>
@@ -44,9 +47,11 @@ export default function Profile() {
             </span>
           </div>
           <div className="profile-optins">
-            <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvnJnqjVskfdNVZdQRVsGgbJMpnQDrgRVvwzpVWMNFRRCdZmpJSTDNBLBxfPtScfkdWGBV">
-            <button className="btn primary-btn">Hire Me</button>
-            </a>
+
+              <button onClick={scrollTOBottom} className="btn primary-btn">
+                Hire Me
+              </button>
+          
             <a href="Resume.pdf" download="Harish Resume.pdf">
               <button className="btn highlighted-btn">Resume</button>
             </a>

@@ -58,6 +58,7 @@
   border-radius: 5px;
   padding: 8px;
   cursor: pointer;
+  z-index: 1;
 }
 .overlay {
   height: 100%;

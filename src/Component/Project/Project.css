@@ -10,18 +10,18 @@
   font-family: "Open Sans", sans-serif;
   line-height: var(--bs-body-line-height);
 }
-.project-cards{
-    display: flex;
-    margin-left: 23%;
+.project-cards {
+  display: flex;
+  margin-left: 23%;
 }
 .cards {
   margin-left: 5%;
-  margin-top: 13%;
+  margin-top: 10%;
   transform: translate(-50%, -50%);
   width: 300px;
   height: 300px;
   background: rgb(55, 79, 121);
-  float: left;
+  cursor: pointer;
 }
 
 .cards .image {
@@ -41,7 +41,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%; 
+  width: 100%;
   height: 100%;
   background: rgb(38, 57, 90);
   transition: 0.5s;
@@ -104,7 +104,7 @@
   padding-top: 130px;
 }
 @media screen and (max-width: 376px) {
-  .project-title{
+  .project-title {
     margin-bottom: 150px;
   }
   .project-cards {
@@ -115,7 +115,7 @@
   }
 }
 @media screen and (max-width: 910px) {
-  .project-title{
+  .project-title {
     margin-bottom: 150px;
   }
   .project-cards {
@@ -125,7 +125,7 @@
     margin-left: 175px;
   }
 }
-@media  (min-width:315px) and (max-width:350px) {
+@media (min-width: 315px) and (max-width: 350px) {
   .project-cards {
     width: 100%;
     display: block;
@@ -133,47 +133,46 @@
     margin-left: 143px;
   }
 }
-@media (width:360px) {
+@media (width: 360px) {
   .project-cards {
     width: 100%;
     display: block;
     margin-bottom: 20px;
     margin-left: 163px;
-  } 
+  }
 }
-@media (width:820px) {
+@media (width: 820px) {
   .project-cards {
     width: 100%;
-    display: flex; 
+    display: flex;
     flex-direction: column-reverse;
     margin-bottom: 20px;
     margin-left: 360px;
-  } 
- 
+  }
 }
-@media (width:540px) {
+@media (width: 540px) {
   .project-cards {
     width: 100%;
-    display: flex; 
+    display: flex;
     flex-direction: column-reverse;
     margin-bottom: 20px;
     margin-left: 250px;
-  } 
+  }
 }
-@media (width:768px){
+@media (width: 768px) {
   .project-cards {
     width: 100%;
-    display: flex; 
+    display: flex;
     flex-direction: column-reverse;
     margin-bottom: 20px;
     margin-left: 345px;
-  } 
+  }
 }
-@media (width:912px){
+@media (width: 912px) {
   .project-cards {
     width: 100%;
-    margin-top:100px;
+    margin-top: 100px;
     margin-bottom: -30px;
     margin-left: 105px;
-  } 
+  }
 }

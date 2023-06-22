@@ -9,9 +9,7 @@ export default function About() {
       </div>
       <div className="section-content">
         <p>
-          I am a Full stack developer with innovative skills and technical
-          knoweledge,eager to expand and utilize my skills and learning. Posses
-          problem solving skills and good communication skill.
+        I am a Full stack developer with innovative skills and technical knowledge, ability to adapt in both self-starting and collaborative environments while staying focused on achieving high-quality results under strict deadlines. Eager to expand and utilize my skills and learning. Posses problem solving skills and good communication skill.
         </p>
       </div>
     </div>

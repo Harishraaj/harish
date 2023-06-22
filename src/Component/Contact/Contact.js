@@ -1,40 +1,85 @@
-import React from "react";
 import "./Contact.css";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
+import Swal from "sweetalert2";
 
-export  function Contact() {
+export function Contact() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    
+    emailjs
+      .sendForm(
+        "service_qptf51k",
+        "template_olq5wsf",
+        form.current,
+        "4byOww5soNlhGikew"
+      )
+      .then(
+        (result) => {
+          Swal.fire({
+            position: 'top-end',
+            icon: 'success',
+            title: 'Send Successfully',
+            showConfirmButton: false,
+            timer: 1500
+          })
+          console.log(result.text);
+        },
+        (error) => {
+          Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'Fail to send!',
+          })
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
   return (
     <div className="contact-body">
       <div className="contact-title">
         <h2>Contact</h2>
       </div>
-      <div className="contact-content">
-        <div className="details-title">
-          <div className="contact-icon">
-            <i className="fa fa-map-marker"></i>
-          </div>
-          <h4>Location :</h4>
+
+      <div className="contact-body">
+        <div className="mail">
+          <form ref={form} onSubmit={sendEmail}>
+            <input type="text" name="user_name" placeholder="Name" required />
+            <br />
+            <input
+              type="email"
+              name="user_email"
+              placeholder="Email"
+              required
+            />
+            <br />
+            <input type="text" name="subject" placeholder="Subject" required />
+            <br />
+            <textarea
+              placeholder="Message"
+              name="message"
+              cols="30"
+              rows="8"
+              required
+            />
+            <br />
+            <button
+              style={{
+                backgroundColor: "green",
+                border: "none",
+                width: "100%",
+                padding: "10px",
+                color: "white",
+              }}
+            >
+              Send
+              
+            </button>
+          </form>
         </div>
-      </div>
-      <div className="details-content-location">
-        <p>Kumaramuthusamy St, Ammapet, Salem-636003</p>
-      </div>
-      <div className="details-title">
-        <div className="contact-icon">
-          <i className="fa fa-phone"></i>
-        </div>
-        <h4>Contact :</h4>
-      </div>
-      <div className="details-content-phone">
-        <p>9003673507</p>
-      </div>
-      <div className="details-title">
-        <div className="contact-icon">
-          <i className="fa fa-envelope"></i>
-        </div>
-        <h4>Mail :</h4>
-      </div>
-      <div className="details-content-mail">
-        <p>harish.s.raaj@gmail.com</p>
       </div>
     </div>
   );
