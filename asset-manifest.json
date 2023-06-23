@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/harish/static/css/main.8f31d8e0.css",
-    "main.js": "/harish/static/js/main.c50a69c0.js",
+    "main.css": "/harish/static/css/main.5afe8869.css",
+    "main.js": "/harish/static/js/main.7567d4c9.js",
     "static/js/787.1ed0c42c.chunk.js": "/harish/static/js/787.1ed0c42c.chunk.js",
     "static/media/IMG_6808.JPG": "/harish/static/media/IMG_6808.b066e40842b5c0725067.JPG",
     "static/media/skill_IMG.png": "/harish/static/media/skill_IMG.76222dd982c03c2d3769.png",
     "static/media/skill_IMG_1_60.png": "/harish/static/media/skill_IMG_1_60.60a2f449f4b5d12888e4.png",
     "static/media/Top-bg_IMG.jpg": "/harish/static/media/Top-bg_IMG.730b3b600e31c56bae1e.jpg",
     "index.html": "/harish/index.html",
-    "main.8f31d8e0.css.map": "/harish/static/css/main.8f31d8e0.css.map",
-    "main.c50a69c0.js.map": "/harish/static/js/main.c50a69c0.js.map",
+    "main.5afe8869.css.map": "/harish/static/css/main.5afe8869.css.map",
+    "main.7567d4c9.js.map": "/harish/static/js/main.7567d4c9.js.map",
     "787.1ed0c42c.chunk.js.map": "/harish/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f31d8e0.css",
-    "static/js/main.c50a69c0.js"
+    "static/css/main.5afe8869.css",
+    "static/js/main.7567d4c9.js"
   ]
 }
